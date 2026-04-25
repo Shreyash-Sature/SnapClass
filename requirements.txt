@@ -1,0 +1,21 @@
+# Utilities
+numpy
+pandas
+
+# face recognition
+scikit-learn
+dlib-bin
+#github module (for face embedding(vector array of face distance))
+git+https://github.com/ageitgey/face_recognition_models 
+setuptools<70.0.0
+
+#for database
+supabase   
+bcrypt     #gives hashing methods
+
+
+segno #generates QR code from url
+pillow #helps in image preprocessing also provide many methods for image 
+
+
+streamlit #frontend library
