@@ -7,18 +7,17 @@ from src.screens.teacher_screen import teacher_screen
 
 def main():
 
-    #initialize session state 
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None
 
     match st.session_state['login_type']:
-        case 'teacher':
-            teacher_screen()
-
         case 'student':
             student_screen()
-
+            
+        case 'teacher':
+            teacher_screen()
+            
         case None:
             home_screen()
-
+            
 main()
