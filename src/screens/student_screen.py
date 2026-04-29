@@ -5,7 +5,6 @@ from src.components.header import header_dashboard
 def student_screen():
 
     header_dashboard()
-
     style_background_dashboard()
     style_base_layout()
     st.header('Student Screen')
